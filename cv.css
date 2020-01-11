@@ -1,0 +1,116 @@
+body{
+	background-image: url(sunflower.png);
+
+}
+
+.navi{
+ background-color: #FDCC0D;
+ text-align: center;
+ font-family: "Lucida Handwriting", cursive;
+ color: black;
+}
+.top{
+	/*color: #C2B5A8;*/
+	font-size: 50px;
+	font-family: "Lucida Handwriting", cursive;
+	text-align: center;
+	background-color: #FDCC0D;
+	
+}
+.listic{
+	font-size: 20px;
+}
+h1{
+	color: BLACK;
+	font-size: 50px;
+}
+
+h2{
+	color: black;
+}
+
+ul{
+	list-style: none;
+}
+li{
+	/*color:#FDCC0D;*/
+	color: black;
+}
+
+table {
+    margin-left:auto; 
+   	margin-right:auto;
+ 	border-collapse: collapse;
+ 	background-color: #FDCC0D;
+ 	width:50%;
+ 	height:400px;
+ 		
+}
+table, th, td {
+ 	border: 1px solid black;
+}
+
+th {
+	font-size: 35px;
+}
+
+td {
+	font-size: 25px;
+	text-align: center;
+}
+
+img {
+	height: 200px;
+}
+.para{
+	font-size: 30px;
+	text-align: center;
+	background-color: #FDCC0D;
+	color: black;
+}
+#stayup{
+	vertical-align: top;
+	height: 50%;
+}
+#mailll{
+	font-size: 150px;
+	text-align: center;
+    vertical-align: bottom;
+}
+#chc{
+	color: #FD6A02;
+}
+
+.griddd {
+	height: 30%;
+	width: 50%;
+	vertical-align: middle;
+	margin:auto;
+  display: grid;
+  grid-auto-flow: column dense;
+
+  grid-template-columns:
+    [col-start] 1fr
+    [col-end col-start] 1fr
+    [col-end col-start] 1fr
+    [col-end col-start] 1fr
+    [col-end col-start] 1fr [col-end];
+
+  grid-template-rows:
+    [row-start] 100px
+    [row-end row-start] 100px
+    [row-end row-start] 100px
+    [row-end row-start] 100px
+    [row-end row-start] 100px
+    [row-end row-start] 100px
+    [row-end row-start] 100px [row-end];
+  grid-gap: 10px;
+  padding: 2px;
+}
+
+button {
+  height: 100px;
+  background-color: black;
+  border-radius: 10px;
+  border: 10px solid;
+}
